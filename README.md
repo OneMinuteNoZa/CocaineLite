@@ -1,8 +1,9 @@
-<center><h1>Cocaine Lite</h1></center>
 
-<center><h4><a href link=https://github.com/OneMinuteNoZa/CocaineLite/edit/main/script.lua>Loadstring</href></h4></center>
+<p style="text-align: center;"><h1>Cocaine Lite</h1></p>
 
-## ABOUT
+<h4><a href link=https://github.com/OneMinuteNoZa/CocaineLite/edit/main/script.lua><p style="text-align: center;">Loadstring</p></a></h4>
+
+<p style="text-align: Left;">## ABOUT
 ### Lightweight Version of Cocoaine, A Blatant PvP Script.
 ### Idgaf if a NN skid Pastes this shit, but i'll find out if your selling my shit, and if you are, I'll take a funni little Legal action and fantom tax all the money you earned off my work
 

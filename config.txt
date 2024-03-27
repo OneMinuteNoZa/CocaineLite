@@ -1,0 +1,3 @@
+!DOCTYPE Lua
+
+--this file is used in case the script is cached or deleted, pls no touch >:(

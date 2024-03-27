@@ -18,7 +18,7 @@ if InputService:GetPlatform() ~= Enum.Platform.Windows
   getgenv().getcustomasset = nil
   --shitty stuffs
   getsynasset = nil
-  getcustomasset =nil
+  getcustomasset = nil
   --ion get this shit but apparently it's needed for synasset/customasset to work
 end
 
@@ -28,4 +28,4 @@ local function github(config)
       end
   end)
 
-  s, r = pcall(function() return game:HttpGet("https://raw.githubusercontent.com/OneMinuteNoZa/CocaineLite/"..readfile("config.txt").."/"..scripturl, true) end)
+  s, r = pcall(function() return game:HttpGet("https://raw.githubusercontent.com/OneMinuteNoZa/CocaineLite/"..readfile("config.txt")..config"/".., true) end)

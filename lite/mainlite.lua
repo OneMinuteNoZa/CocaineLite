@@ -4,8 +4,8 @@ local getpenv = game:GetService("Players")
 local getienv = game:GetService("UserInputService")
 local pidcheck = game.PlaceId = 2753915549
 local isfile = isfile or function(file)
-  local y, n = pcall(function() return readfile(file) end)
-	return y and n ~= nil
+  local gh, rf = pcall(function() return readfile(file) end)
+	return gh and rf ~= nil
 if not pidcheck then
   kick("Join Blox Fruits Lel")
 end
@@ -28,17 +28,21 @@ if InputService:GetPlatform() ~= Enum.Platform.Windows
   --ion get this shit but apparently it's needed for synasset/customasset to work
 end
 
-local function githubreq()
-if not isfile("lite/") then
-  local y, n
+local function githubreq(url)
+if not isfile("lite/"..url) then
+  local gh, rf
   task.wait(10) function()
     if not n then
       print("error when connecting github, please wait...")
-    end
-end)
+    end)
+	gh, rf = pcall(function() return game:HttpGet("https://github.com/OneMinuteNoZa/CocaineLite/"..readfile("lite/config.lua").."/"..url, true end)
+		if not gh or rf == "404: Not Found" then
+			print("Failed to connect to github : lite/"..url.." : "..rf)
+		end)
+	readfile("lite/"..url)
+end
 
-y, n = pcall(function() return game:HttpGet("https://github.com/OneMinuteNoZa/CocaineLite/"..readfile("lite/config.json"
         
 local function DLconfig()
-if 
+
 

@@ -1,1 +1,1 @@
-loadstring(game:HttpGet("https://raw.githubusercontent.com/OneMinuteNoZa/CocaineLite/lite/mainlite.lua")
+loadstring(game:HttpGet("https://raw.githubusercontent.com/OneMinuteNoZa/CocaineLite/main/lite/mainlite.lua")

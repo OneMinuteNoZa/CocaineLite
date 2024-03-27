@@ -23,9 +23,9 @@ if InputService:GetPlatform() ~= Enum.Platform.Windows
 end
 
 local function github(config)
-  if not isfile("LiteConfig/"..config) then
+  if not isfile("config.json") then
     local s, r = task.delay(15, function()
       end
   end)
 
-  s, r = pcall(function() return game:HttpGet("https://raw.githubusercontent.com/OneMinuteNoZa/CocaineLite/"..readfile("config.txt")..config"/".., true) end)
+  s, r = pcall(function() return game:HttpGet("https://raw.githubusercontent.com/OneMinuteNoZa/CocaineLite/"..readfile(config).., true) end)
